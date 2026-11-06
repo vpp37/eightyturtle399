@@ -23,20 +23,17 @@
 
     <section class="outcome" id="outcome-1">
       <h2>Ethics</h2>
-      <p>Before this class I would look at if the AI works or not and that's it. But in week 3 I learned that an AI can work the way it was made and still end up hurting people. We went over three ways this can happen which are algorithmic bias, calibrated trust, and dual-use.</p>
+      <p>Before this class I would look at if the AI works or not and that was pretty much it. In week 3 I learned an AI can work the way it was made and still end up hurting people. We went over three ways this happens: algorithmic bias, calibrated trust, and dual-use. In class we used the Workday lawsuit, the Winters case, and voice cloning scams. For this draft I took those same three ideas and applied them to things from the field I'm going into.</p>
+      <p>Algorithmic bias is when an AI follows the same rule for everyone but still treats some groups worse. A lot of the time it happens through a proxy variable, which is something that ends up standing in for a trait the AI never asks about.</p>
+      <p>Banks use AI to flag transactions that look like fraud. The AI never asks where you're from, but it does look at stuff like sending money to other countries, spending in a different place than usual, or having a newer account. Immigrants who send money home to family do all of those things a lot. So the AI could keep freezing their cards even though it's never told anyone's nationality. That's the same idea as the work history gaps in the Workday case, just with money instead of jobs.</p>
+      <p>The fraud model might still be "working" because it catches real fraud. But if one group gets flagged way more for normal stuff, that's a problem. One fix is to check how often the AI wrongly flags people in different groups, not just how much fraud it catches overall.</p>
 
-      <h3>Algorithmic bias</h3>
-      <p>In lecture we looked at a resume screener where two people had the same skills and the same experience, but the one who had a “Women’s” club on their resume got around 16 points lower every time. The tool never even knew what gender they were, it just picked it up from the club name.</p>
-      <p>That’s what a proxy variable is. It’s basically something that ends up standing in for a trait that the tool never asks about.</p>
-      <p>Then in lab we looked at Mobley v. Workday. The lawsuit says that Workday’s tool was using gaps in someone’s work history as a proxy. Older people and people with disabilities are more likely to have gaps, so they could get rejected even though the tool never asked about their age or disability. The case is still going on though so nothing has been proven yet.</p>
-
-      <h3>Calibrated trust</h3>
-      <p>Calibrated trust is about knowing when you should trust what an AI tells you and when you shouldn’t. Our rule was to ask yourself if you can check the answer yourself, how bad it would be if it’s wrong, and if you can undo it if it is wrong.</p>
-      <p>In lab tested Claude and ChatGPT with some medical questions. For the trouble breathing one, both of them told me to call 911 and use an EpiPen, which was way better than the fake app from lecture that just said “wait and see.” But the questions I asked were pretty easy and obvious. In the Winters case ChatGPT supposedly gave bad advice over a long conversation, so I don’t think you can fully trust it when it comes to serious stuff.</p>
-
-      <h3>Dual-use</h3>
-      <p>Dual-use is when a tool that was made for something good gets used for something bad. Voice cloning can help someone who lost their voice talk in their own voice again. But scammers are using it to fake calls from family members asking for money, and they only need like 3 seconds of someone’s voice to do it.</p>
-      <p>I think the company should take some of the blame too since this kind of thing is pretty easy to see coming. One way to fix it would be to make people read a random sentence out loud live before the tool lets them clone a voice.</p>
+      <p>I did help desk at my co-op and a lot of tickets were password resets. Some companies are starting to let AI chatbots handle these, so I ran it through the three questions. Can I check it? Not really, because if the chatbot decides someone is who they say they are, there's no person double checking. How bad is it if it's wrong? Really bad, since if it resets the password for the wrong person an attacker now has someone's account. Can it be undone? Not fully. You can lock the account after, but whatever they did or downloaded already happened.</p>
+      <p>So I'd trust an AI to answer basic stuff like how to connect to the wifi or reset a printer. But I wouldn't let it verify someone's identity on its own. When I did resets we had steps to confirm who the person was, and I think a human should still be part of that.</p>
+      <p>Dual-use is when a tool made for something good gets used for something bad. In class it was voice cloning. A newer example is chatbots writing phishing emails.</p>
+      <p>Phishing emails used to be easy to spot because they had bad spelling and weird grammar. Now anyone can have an AI write a clean, professional email that looks like it came from IT or a bank. That makes them a lot harder to catch. But security teams use the same kind of AI to make fake phishing emails for training, so employees can practice spotting them. Same tool, totally different use</p>
+      <p>Like with voice cloning, I think the companies that make these tools should take some responsibility since this kind of misuse is easy to see coming. But I don't think you can fully stop it, so the defense side matters too, like training people and making it easy to report a sketchy email.</p>
+      <p>All three of these show up in cybersecurity. Fraud detection, identity checks, and phishing are things I'll actually deal with at work. Before, I would have just asked if the tool works. Now I'd also ask who it might treat unfairly, how much I should trust it, and how someone could use it for something bad.</p>
 
     </section>
 
